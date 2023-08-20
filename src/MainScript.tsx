@@ -29,7 +29,7 @@ let activeWidget = null;
 
 const portalUrl = "https://www.arcgis.com";
 
-esriConfig.apiKey = "AAPKef29b82e1d5242c8a5f70a07a2e606efknDZO_U878U9VVvnsoLSl0SDAgJoqHQdE8X1uNJT9H6e0qzR4qYC2yFAcIEB5ykk"
+esriConfig.apiKey = process.env.ESRI_CONFIG_API_KEY;
 
 export const initialize = (container) => {
 
