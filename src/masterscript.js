@@ -121,7 +121,7 @@ require([
 //--------------------------------------------------------//
 
 
-            esriConfig.apiKey = process.env.ESRI_CONFIG_API_KEY;
+            esriConfig.apiKey = process.env.REACT_APP_ESRI_CONFIG_API_KEY;
             const map = new Map({
                 basemap: "topo-vector"
             });
